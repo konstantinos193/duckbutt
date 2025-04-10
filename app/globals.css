@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #111111;
+    color: white;
+    overflow-x: hidden;
+  }
+}
+
+.dickbutt-cursor {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍆</text></svg>")
+    16 0, auto;
+}
+
+.glitch {
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch::before {
+  left: 2px;
+  text-shadow: -2px 0 #ff6600;
+  clip: rect(24px, 550px, 90px, 0);
+  animation: glitch-anim 3s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  left: -2px;
+  text-shadow: -2px 0 #ffd700;
+  clip: rect(85px, 550px, 140px, 0);
+  animation: glitch-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+  0% {
+    clip: rect(5px, 9999px, 28px, 0);
+  }
+  5% {
+    clip: rect(70px, 9999px, 12px, 0);
+  }
+  10% {
+    clip: rect(60px, 9999px, 34px, 0);
+  }
+  15% {
+    clip: rect(34px, 9999px, 25px, 0);
+  }
+  20% {
+    clip: rect(92px, 9999px, 74px, 0);
+  }
+  25% {
+    clip: rect(21px, 9999px, 23px, 0);
+  }
+  30% {
+    clip: rect(43px, 9999px, 61px, 0);
+  }
+  35% {
+    clip: rect(64px, 9999px, 79px, 0);
+  }
+  40% {
+    clip: rect(12px, 9999px, 15px, 0);
+  }
+  45% {
+    clip: rect(60px, 9999px, 13px, 0);
+  }
+  50% {
+    clip: rect(46px, 9999px, 75px, 0);
+  }
+  55% {
+    clip: rect(5px, 9999px, 92px, 0);
+  }
+  60% {
+    clip: rect(54px, 9999px, 30px, 0);
+  }
+  65% {
+    clip: rect(57px, 9999px, 71px, 0);
+  }
+  70% {
+    clip: rect(33px, 9999px, 68px, 0);
+  }
+  75% {
+    clip: rect(93px, 9999px, 51px, 0);
+  }
+  80% {
+    clip: rect(84px, 9999px, 12px, 0);
+  }
+  85% {
+    clip: rect(32px, 9999px, 25px, 0);
+  }
+  90% {
+    clip: rect(94px, 9999px, 64px, 0);
+  }
+  95% {
+    clip: rect(79px, 9999px, 58px, 0);
+  }
+  100% {
+    clip: rect(50px, 9999px, 53px, 0);
+  }
+}
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 50px;
+  overflow-x: hidden;
+  background-color: #ff6600;
+  color: white;
+  font-weight: bold;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.rainbow-text {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: rainbow 5s linear infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.retro-bg {
+  background-image: linear-gradient(to right, rgba(255, 102, 0, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 102, 0, 0.5) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.dickbutt-bg {
+  background-color: #111111;
+  background-image: radial-gradient(#ff6600 1px, transparent 1px);
+  background-size: 30px 30px;
+}
