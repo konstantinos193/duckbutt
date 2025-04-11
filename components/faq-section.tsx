@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "What exactly is DICKBUTT?",
     answer:
-      "DICKBUTT is a meme token that combines internet humor with the power of Bitcoin. It's fun, it's memorable, and it's trading exclusively on the Odin.fun platform.",
+      "DICKBUTT is a meme token that combines internet humor with the power of Bitcoin. It's fun, it's memorable, and it's trading exclusively on the funkybit.fun platform.",
   },
   {
     question: "Is this a good investment?",

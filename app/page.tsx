@@ -11,7 +11,7 @@ import TokenomicsJoke from "@/components/tokenomics-joke"
 import FunnyButton from "@/components/funny-button"
 
 // Get environment variables with fallbacks
-const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://odin.fun"
+const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://funkybit.fun"
 const TWITTER_URL = process.env.NEXT_PUBLIC_TWITTER_URL || "#"
 
 export default function Home() {
@@ -75,7 +75,7 @@ export default function Home() {
             </p>
 
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl">
-              Trading exclusively on <span className="text-dickbutt-yellow font-bold">Odin.fun</span> - join the
+              Trading exclusively on <span className="text-dickbutt-yellow font-bold">funkybit.fun</span> - join the
               community today!
             </p>
 
@@ -120,7 +120,7 @@ export default function Home() {
               combining internet culture with the technological innovation of BTC.
             </p>
             <p className="text-xl text-white/90">
-              All trading happens exclusively on the Odin.fun platform, where our community continues to grow and
+              All trading happens exclusively on the funkybit.fun platform, where our community continues to grow and
               thrive.
             </p>
           </div>

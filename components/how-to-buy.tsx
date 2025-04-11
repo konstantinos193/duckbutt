@@ -13,7 +13,7 @@ export default function HowToBuy() {
               1
             </div>
             <h3 className="text-xl font-display font-bold text-white mb-3">Create Account</h3>
-            <p className="text-gray-300">Sign up for an account on Odin.fun platform.</p>
+            <p className="text-gray-300">Sign up for an account on funkybit.fun platform.</p>
           </div>
 
           <div className="bg-dark/80 backdrop-blur-sm border border-primary/20 rounded-xl p-6 hover:border-primary transition-colors">
@@ -21,7 +21,7 @@ export default function HowToBuy() {
               2
             </div>
             <h3 className="text-xl font-display font-bold text-white mb-3">Deposit BTC</h3>
-            <p className="text-gray-300">Deposit Bitcoin to your Odin.fun wallet.</p>
+            <p className="text-gray-300">Deposit Bitcoin to your funkybit.fun wallet.</p>
           </div>
 
           <div className="bg-dark/80 backdrop-blur-sm border border-primary/20 rounded-xl p-6 hover:border-primary transition-colors">
@@ -43,12 +43,12 @@ export default function HowToBuy() {
 
         <div className="mt-12 text-center">
           <a
-            href="https://odin.fun"
+            href="https://funkybit.fun"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-primary/90 transition-colors"
           >
-            Buy on Odin.fun
+            Buy on funkybit.fun
           </a>
         </div>
       </div>
