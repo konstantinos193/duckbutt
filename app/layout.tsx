@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/mascot.png" type="image/png" />
       </head>
       <body className="dickbutt-cursor font-comic">{children}</body>
     </html>
