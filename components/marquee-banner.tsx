@@ -1,5 +1,6 @@
 export default function MarqueeBanner() {
-  const text = "🍆 BUY DICKBUTT OR STAY POOR FOREVER 🍆 THIS IS NOT FINANCIAL ADVICE 🍆 ACTUALLY IT IS 🍆 BUY NOW 🍆 "
+  const text =
+    "🍆 DICKBUTT ON SOLANA 🍆 FASTEST MEME IN THE WEST 🍆 CONTRACT: Coming Soon... 🍆 LOW FEES HIGH MEMES 🍆 "
   // Duplicate the text to ensure continuous flow
   const repeatedText = text.repeat(10)
 

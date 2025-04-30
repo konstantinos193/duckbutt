@@ -8,10 +8,10 @@ import FloatingDickbutts from "@/components/floating-dickbutts"
 import FaqSection from "@/components/faq-section"
 import BuySteps from "@/components/buy-steps"
 import TokenomicsJoke from "@/components/tokenomics-joke"
-import FunnyButton from "@/components/funny-button"
+import ContractDisplay from "@/components/contract-display"
 
 // Get environment variables with fallbacks
-const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://funkybit.fun"
+const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://letsbonk.fun"
 const TWITTER_URL = process.env.NEXT_PUBLIC_TWITTER_URL || "#"
 
 export default function Home() {
@@ -65,30 +65,45 @@ export default function Home() {
             </div>
 
             <GlitchText
-              text="BITCOIN'S LEGENDARY MEME TOKEN"
+              text="SOLANA'S LEGENDARY MEME TOKEN"
               className="text-4xl md:text-6xl font-bold mb-6 transform -rotate-2"
             />
 
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-2xl">
-              Inspired by <span className="text-dickbutt-yellow font-bold">Inscription #1</span>, the second inscription
-              ever on Bitcoin!
+              The most irreverent meme token on <span className="text-dickbutt-yellow font-bold">Solana</span>!
             </p>
 
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl">
-              Trading exclusively on <span className="text-dickbutt-yellow font-bold">funkybit.fun</span> - join the
+              Trading exclusively on <span className="text-dickbutt-yellow font-bold">letsbonk.fun</span> - join the
               community today!
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <FunnyButton text="BUY DICKBUTT" href={TRADING_URL} className="bg-dickbutt-yellow text-dickbutt-dark" />
-
-              <button
-                onClick={() => window.scrollTo({ top: window.innerHeight, behavior: "smooth" })}
-                className="bg-white/10 backdrop-blur-sm text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white/20 transition-colors"
-              >
-                Learn More
-              </button>
+            {/* Replace the buttons with contract address */}
+            <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg mt-4 mb-8">
+              <p className="text-white/80 text-sm mb-1">Contract Address:</p>
+              <div className="flex items-center">
+                <code className="bg-dickbutt-dark/80 text-dickbutt-yellow p-2 rounded font-mono text-sm sm:text-base overflow-x-auto max-w-full">
+                  Coming Soon...
+                </code>
+                <button
+                  onClick={() => {
+                    navigator.clipboard.writeText("Coming Soon...")
+                    alert("Contract address copied to clipboard!")
+                  }}
+                  className="ml-2 p-2 bg-dickbutt-orange/30 hover:bg-dickbutt-orange/50 rounded"
+                  aria-label="Copy contract address"
+                >
+                  📋
+                </button>
+              </div>
             </div>
+
+            <button
+              onClick={() => window.scrollTo({ top: window.innerHeight, behavior: "smooth" })}
+              className="bg-white/10 backdrop-blur-sm text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white/20 transition-colors"
+            >
+              Learn More
+            </button>
           </div>
         </div>
 
@@ -111,16 +126,15 @@ export default function Home() {
 
           <div className="bg-dickbutt-dark/80 backdrop-blur-sm border-2 border-dickbutt-orange rounded-xl p-6 md:p-8 mb-12 transform rotate-1">
             <p className="text-xl text-white/90 mb-6">
-              DICKBUTT is not just another meme token. It's THE meme token inspired by{" "}
-              <span className="text-dickbutt-yellow font-bold">Inscription #1</span>, the second inscription ever
-              created on Bitcoin.
+              DICKBUTT is not just another meme token. It's THE meme token bringing internet culture to the Solana
+              blockchain.
             </p>
             <p className="text-xl text-white/90 mb-6">
-              This historic connection to Bitcoin's early inscriptions makes DICKBUTT a piece of blockchain history,
-              combining internet culture with the technological innovation of BTC.
+              Built on Solana's lightning-fast and low-cost network, DICKBUTT combines the speed of SOL with the
+              cultural phenomenon of one of the internet's most beloved memes.
             </p>
             <p className="text-xl text-white/90">
-              All trading happens exclusively on the funkybit.fun platform, where our community continues to grow and
+              All trading happens exclusively on the letsbonk.fun platform, where our community continues to grow and
               thrive.
             </p>
           </div>
@@ -149,6 +163,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contract Display Section */}
+      <section className="py-12 px-4 bg-dickbutt-dark/90">
+        <ContractDisplay />
+      </section>
+
       {/* Tokenomics Section */}
       <TokenomicsJoke />
 
@@ -161,9 +180,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-dickbutt-dark border-t-2 border-dickbutt-orange/50 py-8 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-dickbutt-yellow font-bold text-xl mb-4">DICKBUTT: Bitcoin's Historic Meme Token</p>
+          <p className="text-dickbutt-yellow font-bold text-xl mb-4">DICKBUTT: Solana's Memetic Masterpiece</p>
 
-          <p className="text-white/70 mb-6">Join our community and be part of Bitcoin inscription history.</p>
+          <p className="text-white/70 mb-6">Join our community and be part of the Solana meme revolution.</p>
 
           <div className="flex justify-center mb-6">
             <a
@@ -194,37 +213,6 @@ export default function Home() {
           <p className="text-white/50 text-sm">&copy; {new Date().getFullYear()} DICKBUTT. All rights reserved.</p>
         </div>
       </footer>
-
-      {/* Annoying Popup */}
-      {showPopup && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black/70">
-          <div className="bg-dickbutt-dark border-4 border-dickbutt-yellow p-8 rounded-lg max-w-md relative animate-bounce-slow">
-            <button onClick={closePopup} className="absolute top-2 right-2 text-white/70 hover:text-white">
-              ❌
-            </button>
-
-            <h3 className="text-2xl font-bold text-dickbutt-yellow mb-4">HEY! DON'T LEAVE YET!</h3>
-            <p className="text-white mb-6">
-              Are you SURE you don't want to buy DICKBUTT? Your friends will all be rich without you!
-            </p>
-
-            <div className="flex justify-between">
-              <a
-                href={TRADING_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-dickbutt-yellow text-dickbutt-dark px-6 py-2 rounded-full font-bold"
-              >
-                Buy Now
-              </a>
-
-              <button onClick={closePopup} className="bg-white/10 text-white px-6 py-2 rounded-full font-bold">
-                Maybe Later
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </main>
   )
 }
