@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "DICKBUTT - The Most Ridiculous Solana Meme Token Ever",
-  description: "The most irreverent Solana meme token on letsbonk.fun - Buy now or forever be a loser!",
+  description: "The most irreverent Solana meme token on pump.fun - Buy now or forever be a loser!",
     generator: 'v0.dev'
 }
 
@@ -26,3 +26,4 @@ export default function RootLayout({
     </html>
   )
 }
+ 

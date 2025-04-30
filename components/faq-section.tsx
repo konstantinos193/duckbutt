@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "What exactly is DICKBUTT?",
     answer:
-      "DICKBUTT is a meme token that combines internet humor with the power of Solana. It's fun, it's memorable, and it's trading exclusively on the letsbonk.fun platform.",
+      "DICKBUTT is a meme token that combines internet humor with the power of Solana. It's fun, it's memorable, and it's trading exclusively on the pump.fun platform.",
   },
   {
     question: "Is this a good investment?",

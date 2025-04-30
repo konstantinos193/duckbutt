@@ -11,7 +11,7 @@ import TokenomicsJoke from "@/components/tokenomics-joke"
 import ContractDisplay from "@/components/contract-display"
 
 // Get environment variables with fallbacks
-const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://letsbonk.fun"
+const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://pump.fun"
 const TWITTER_URL = process.env.NEXT_PUBLIC_TWITTER_URL || "#"
 
 export default function Home() {
@@ -74,7 +74,7 @@ export default function Home() {
             </p>
 
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl">
-              Trading exclusively on <span className="text-dickbutt-yellow font-bold">letsbonk.fun</span> - join the
+              Trading exclusively on <span className="text-dickbutt-yellow font-bold">pump.fun</span> - join the
               community today!
             </p>
 
@@ -134,7 +134,7 @@ export default function Home() {
               cultural phenomenon of one of the internet's most beloved memes.
             </p>
             <p className="text-xl text-white/90">
-              All trading happens exclusively on the letsbonk.fun platform, where our community continues to grow and
+              All trading happens exclusively on the pump.fun platform, where our community continues to grow and
               thrive.
             </p>
           </div>

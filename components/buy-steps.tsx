@@ -4,31 +4,31 @@ import { useState } from "react"
 import Image from "next/image"
 
 // Get environment variable with fallback
-// const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://letsbonk.fun"
+const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://pump.fun"
 
 export default function BuySteps() {
   const [hoveredStep, setHoveredStep] = useState<number | null>(null)
 
   const steps = [
     {
-      title: "Step 1: Create a Solana Wallet",
-      description: "Set up a Solana wallet like Phantom or Solflare to store your SOL and DICKBUTT tokens.",
-      emoji: "👛",
+      title: "Step 1: Get Your Ass to pump.fun",
+      description: "Create an account on pump.fun. It's like signing up for OnlyFans but for your wallet.",
+      emoji: "🚀",
     },
     {
-      title: "Step 2: Get Some SOL",
-      description: "Buy SOL from an exchange and transfer it to your wallet. You'll need it for transactions.",
+      title: "Step 2: Deposit Your SOL",
+      description: "Send your precious Solana to pump.fun. Yes, you're really doing this.",
       emoji: "💰",
     },
     {
-      title: "Step 3: Add the Token",
-      description: "Add the DICKBUTT token to your wallet using the contract address below.",
-      emoji: "➕",
+      title: "Step 3: Find DICKBUTT",
+      description: "Search for DICKBUTT in the trading section. It's the one with the... well, you know.",
+      emoji: "🔍",
     },
     {
-      title: "Step 4: Trade on DEX",
-      description: "Use your favorite Solana DEX to swap SOL for DICKBUTT using the contract address.",
-      emoji: "🔄",
+      title: "Step 4: YOLO Your Life Savings",
+      description: "Click buy, enter amount, confirm, and tell your spouse you've made a 'strategic investment'.",
+      emoji: "🍆",
     },
   ]
 
