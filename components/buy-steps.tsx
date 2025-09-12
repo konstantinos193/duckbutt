@@ -4,20 +4,20 @@ import { useState } from "react"
 import Image from "next/image"
 
 // Get environment variable with fallback
-const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://pump.fun"
+const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://spark"
 
 export default function BuySteps() {
   const [hoveredStep, setHoveredStep] = useState<number | null>(null)
 
   const steps = [
     {
-      title: "Step 1: Get Your Ass to pump.fun",
-      description: "Create an account on pump.fun. It's like signing up for OnlyFans but for your wallet.",
+      title: "Step 1: Get Your Ass to spark",
+      description: "Create an account on spark. It's like signing up for OnlyFans but for your wallet.",
       emoji: "🚀",
     },
     {
-      title: "Step 2: Deposit Your SOL",
-      description: "Send your precious Solana to pump.fun. Yes, you're really doing this.",
+      title: "Step 2: Deposit Your BTC",
+      description: "Send your precious BTC to spark. Yes, you're really doing this.",
       emoji: "💰",
     },
     {

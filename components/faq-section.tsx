@@ -4,14 +4,14 @@ import { useState } from "react"
 
 const faqs = [
   {
-    question: "What is DICKBUTT's connection to Solana?",
+    question: "What is DICKBUTT's connection to BTC?",
     answer:
-      "DICKBUTT is built on the Solana blockchain, taking advantage of its lightning-fast transactions and low fees. This makes buying, selling, and transferring DICKBUTT tokens quick and affordable for everyone.",
+      "DICKBUTT is built on the BTC blockchain, taking advantage of its lightning-fast transactions and low fees. This makes buying, selling, and transferring DICKBUTT tokens quick and affordable for everyone.",
   },
   {
     question: "What exactly is DICKBUTT?",
     answer:
-      "DICKBUTT is a meme token that combines internet humor with the power of Solana. It's fun, it's memorable, and it's trading exclusively on the pump.fun platform.",
+      "DICKBUTT is a meme token that combines internet humor with the power of BTC. It's fun, it's memorable, and it's trading exclusively on the spark platform.",
   },
   {
     question: "Is this a good investment?",
@@ -21,17 +21,17 @@ const faqs = [
   {
     question: "Why should I buy DICKBUTT?",
     answer:
-      "DICKBUTT offers a unique combination of meme culture and Solana's speed. Plus, memes have proven to be powerful drivers in the crypto economy. Join our growing community today!",
+      "DICKBUTT offers a unique combination of meme culture and BTC's speed. Plus, memes have proven to be powerful drivers in the crypto economy. Join our growing community today!",
   },
   {
     question: "Where does the name come from?",
     answer:
-      "The name comes from a popular internet meme that has been around since the early 2000s. It's now immortalized on the Solana blockchain.",
+      "The name comes from a popular internet meme that has been around since the early 2000s. It's now immortalized on the BTC blockchain.",
   },
   {
     question: "When will DICKBUTT reach its potential?",
     answer:
-      "Market timing is impossible to predict, but with our growing community and Solana's increasing popularity, we believe DICKBUTT has a bright future ahead.",
+      "Market timing is impossible to predict, but with our growing community and BTC's increasing popularity, we believe DICKBUTT has a bright future ahead.",
   },
 ]
 

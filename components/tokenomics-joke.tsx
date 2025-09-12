@@ -24,8 +24,8 @@ export default function WhyDickbutt() {
       emoji: "🎭",
     },
     {
-      title: "Solana Speed",
-      description: "Built on Solana because we're impatient and like our transactions faster than our jokes.",
+      title: "BTC Speed",
+      description: "Built on BTC because we're impatient and like our transactions faster than our jokes.",
       emoji: "⚡",
     },
   ]

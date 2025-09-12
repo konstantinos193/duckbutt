@@ -5,13 +5,13 @@ export default function About() {
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-4">About DICKBUTT</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Bringing the fun and irreverent side of crypto while building on Solana's secure foundation.
+            Bringing the fun and irreverent side of crypto while building on BTC's secure foundation.
           </p>
         </div>
 
         <div className="prose prose-lg text-gray-300 max-w-3xl mx-auto mb-12">
           <p>
-            Born from internet culture and fueled by community enthusiasm, DICKBUTT combines the reliability of SOL with
+            Born from internet culture and fueled by community enthusiasm, DICKBUTT combines the reliability of BTC with
             the fun and excitement of meme tokens. All trading happens within the secure pump.fun platform.
           </p>
         </div>
@@ -21,9 +21,9 @@ export default function About() {
             <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl mb-4">
               🚀
             </div>
-            <h3 className="text-2xl font-display font-bold text-white mb-3">SOL Powered</h3>
+            <h3 className="text-2xl font-display font-bold text-white mb-3">BTC Powered</h3>
             <p className="text-gray-300">
-              Leveraging the speed and low fees of Solana while adding the fun of meme culture.
+              Leveraging the speed and low fees of BTC while adding the fun of meme culture.
             </p>
           </div>
         </div>

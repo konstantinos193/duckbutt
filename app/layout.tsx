@@ -7,8 +7,8 @@ import Head from 'next/head'
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "DICKBUTT - The Most Ridiculous Solana Meme Token Ever",
-  description: "The most irreverent Solana meme token on pump.fun - Buy now or forever be a loser!",
+  title: "DICKBUTT - The Most Ridiculous BTC Meme Token Ever",
+  description: "The most irreverent BTC meme token on spark - Buy now or forever be a loser!",
     generator: 'v0.dev'
 }
 

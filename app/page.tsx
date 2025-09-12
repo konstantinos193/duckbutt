@@ -11,7 +11,7 @@ import TokenomicsJoke from "@/components/tokenomics-joke"
 import ContractDisplay from "@/components/contract-display"
 
 // Get environment variables with fallbacks
-const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://pump.fun"
+const TRADING_URL = process.env.NEXT_PUBLIC_TRADING_URL || "https://spark"
 const TWITTER_URL = process.env.NEXT_PUBLIC_TWITTER_URL || "#"
 
 export default function Home() {
@@ -65,16 +65,16 @@ export default function Home() {
             </div>
 
             <GlitchText
-              text="SOLANA'S LEGENDARY MEME TOKEN"
+              text="BTC'S LEGENDARY MEME TOKEN"
               className="text-4xl md:text-6xl font-bold mb-6 transform -rotate-2"
             />
 
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-2xl">
-              The most irreverent meme token on <span className="text-dickbutt-yellow font-bold">Solana</span>!
+              The most irreverent meme token on <span className="text-dickbutt-yellow font-bold">BTC</span>!
             </p>
 
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl">
-              Trading exclusively on <span className="text-dickbutt-yellow font-bold">pump.fun</span> - join the
+              Trading exclusively on <span className="text-dickbutt-yellow font-bold">spark</span> - join the
               community today!
             </p>
 
@@ -126,15 +126,15 @@ export default function Home() {
 
           <div className="bg-dickbutt-dark/80 backdrop-blur-sm border-2 border-dickbutt-orange rounded-xl p-6 md:p-8 mb-12 transform rotate-1">
             <p className="text-xl text-white/90 mb-6">
-              DICKBUTT is not just another meme token. It's THE meme token bringing internet culture to the Solana
+              DICKBUTT is not just another meme token. It's THE meme token bringing internet culture to the BTC
               blockchain.
             </p>
             <p className="text-xl text-white/90 mb-6">
-              Built on Solana's lightning-fast and low-cost network, DICKBUTT combines the speed of SOL with the
+              Built on BTC's lightning-fast and low-cost network, DICKBUTT combines the speed of BTC with the
               cultural phenomenon of one of the internet's most beloved memes.
             </p>
             <p className="text-xl text-white/90">
-              All trading happens exclusively on the pump.fun platform, where our community continues to grow and
+              All trading happens exclusively on the spark platform, where our community continues to grow and
               thrive.
             </p>
           </div>
@@ -180,9 +180,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-dickbutt-dark border-t-2 border-dickbutt-orange/50 py-8 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-dickbutt-yellow font-bold text-xl mb-4">DICKBUTT: Solana's Memetic Masterpiece</p>
+          <p className="text-dickbutt-yellow font-bold text-xl mb-4">DICKBUTT: BTC's Memetic Masterpiece</p>
 
-          <p className="text-white/70 mb-6">Join our community and be part of the Solana meme revolution.</p>
+          <p className="text-white/70 mb-6">Join our community and be part of the BTC meme revolution.</p>
 
           <div className="flex justify-center mb-6">
             <a

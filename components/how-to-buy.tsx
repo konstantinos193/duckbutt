@@ -13,15 +13,15 @@ export default function HowToBuy() {
               1
             </div>
             <h3 className="text-xl font-display font-bold text-white mb-3">Create Account</h3>
-            <p className="text-gray-300">Sign up for an account on pump.fun platform.</p>
+            <p className="text-gray-300">Sign up for an account on spark platform.</p>
           </div>
 
           <div className="bg-dark/80 backdrop-blur-sm border border-primary/20 rounded-xl p-6 hover:border-primary transition-colors">
             <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl mb-4">
               2
             </div>
-            <h3 className="text-xl font-display font-bold text-white mb-3">Deposit SOL</h3>
-            <p className="text-gray-300">Deposit Solana to your pump.fun wallet.</p>
+            <h3 className="text-xl font-display font-bold text-white mb-3">Deposit BTC</h3>
+            <p className="text-gray-300">Deposit BTC to your spark wallet.</p>
           </div>
 
           <div className="bg-dark/80 backdrop-blur-sm border border-primary/20 rounded-xl p-6 hover:border-primary transition-colors">

@@ -14,7 +14,7 @@ export default function ContractDisplay() {
 
   return (
     <div className="bg-dickbutt-dark/80 border-2 border-dickbutt-orange rounded-lg p-6 max-w-3xl mx-auto">
-      <h3 className="text-2xl font-bold text-dickbutt-yellow mb-4 text-center">Solana Contract Address</h3>
+      <h3 className="text-2xl font-bold text-dickbutt-yellow mb-4 text-center">BTC Contract Address</h3>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <code className="bg-dickbutt-dark text-dickbutt-yellow p-3 rounded font-mono text-sm sm:text-base break-all">
